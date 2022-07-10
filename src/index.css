@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app{
+  display:flex;
+  padding:35px;
+  background-image: linear-gradient(pink,lightblue);
+  height:95vh;
+  
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.game{
+  display:flex; 
+  flex-wrap: wrap; 
+  height:560px;
+  width:560px;
+  margin:auto;
+  border:14px groove violet;
 }
+
+.game img{
+  height:70px;
+  width:70px;
+}
+
+.score-display{
+ text-align: right;
+}
+.score{
+  text-align:end;
+}
+
